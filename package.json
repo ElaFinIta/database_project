@@ -1,0 +1,15 @@
+{
+  "name": "database_project",
+  "version": "1.0.0",
+  "description": "a project to practice mariadb queries",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mariadb": "^2.5.5"
+  }
+}
