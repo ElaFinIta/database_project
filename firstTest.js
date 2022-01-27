@@ -30,7 +30,6 @@ async function getAll() {
     }
 };
 
-
 async function get(id) {
     try {
         const result = await db.doQuery('select * from employee where employeeId=?', [id]);
