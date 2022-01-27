@@ -58,7 +58,7 @@ Return value of select, example:
 ```js
 const result = await db.query('insert into employee values(?,?,?,?,?)', [6, 'Petra', 'Bond', 'admin', 9000]');
 ```
-Return value is an object:
+Return a Promise. Return value is an object:
 
 ```js
 {
